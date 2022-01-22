@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário POST</title>
+</head>
+<body>
+
+    <form method="POST" action="form.php">
+        Nome: <input type="text" name="nome"><br><br>
+        Sexo: Feminino
+        <input type="radio" name="sexo" value="Feminino">
+        Sexo: Masculino
+        <input type="radio" name="sexo" value="Masculino"><br><br>
+        
+        Escolha sua(s) cor(es) favorita(s): <br>
+        Azul <input type="checkbox" name="cor[]" value="Azul"><br>
+        Branco <input type="checkbox" name="cor[]" value="Branco"><br>
+        Preto <input type="checkbox" name="cor[]" value="Preto"><br>
+        Vermelho <input type="checkbox" name="cor[]" value="Vermleho"><br>
+        <br>
+        <br>
+
+        Escolha um período: <br>
+        <select name="período">
+            <option value="Manhã">Manhã</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noite">Noite</option>
+        </select>
+        
+        <input type="submit" value="Mostrar">
+
+    </form>
+    
+</body>
+</html>
